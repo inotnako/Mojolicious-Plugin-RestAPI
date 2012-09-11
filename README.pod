@@ -5,10 +5,29 @@ Mojolicious::Plugin::RestAPI - Mojolicious Plugin
 =head1 SYNOPSIS
 
   # Mojolicious
-  $self->plugin('RestAPI');
+	$self->plugin('RestAPI');
+	# OR
+	$self->plugin
+		(
+		'RestAPI',
+			{
+			route 	=> $self->routes,
+			schema 	=> $self->schema,
+			url	=> '/rest',
+			id_property => 'n' # id or n 
+			}
+		);
 
   # Mojolicious::Lite
-  plugin 'RestAPI';
+	plugin 'RestAPI';
+	# OR
+	plugin 'RestAPI',
+			{
+			route 	=> $self->routes,
+			schema 	=> $self->schema,
+			url	=> '/rest',
+			id_property => 'n' # id or n 
+			};
 
 =head1 DESCRIPTION
 
@@ -27,6 +46,6 @@ Register plugin in L<Mojolicious> application.
 
 =head1 SEE ALSO
 
-L<Mojolicious>, L<Mojolicious::Guides>, L<http://mojolicio.us>.
+L<Mojolicious>, L<Mojolicious::Guides>, L<http://mojolicio.us> L<DBIx::Class>.
 
 =cut 
