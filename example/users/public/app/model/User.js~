@@ -1,0 +1,8 @@
+Ext.define
+	(
+	'H.model.User',
+		{
+		extend: 'Ext.data.Model',
+		fields: ['n', 'full_name', 'email']
+		}
+	);

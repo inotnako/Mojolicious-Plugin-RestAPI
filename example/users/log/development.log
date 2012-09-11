@@ -1,0 +1,1454 @@
+[Tue Sep 11 01:08:01 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 13:20:12 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 13:20:26 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 13:20:26 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:20:26 2012] [debug] Routing to controller "Users::Example" and action "welcome".
+[Tue Sep 11 13:20:26 2012] [debug] Rendering template "example/welcome.html.ep".
+[Tue Sep 11 13:20:26 2012] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 11 13:20:26 2012] [debug] 200 OK (0.213071s, 4.693/s).
+[Tue Sep 11 13:20:59 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:20:59 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:20:59 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:20:59 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:20:59 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:20:59 2012] [debug] Rendering inline template.
+[Tue Sep 11 13:20:59 2012] [debug] Rendering inline template.
+[Tue Sep 11 13:20:59 2012] [debug] 500 Internal Server Error (0.161765s, 6.182/s).
+[Tue Sep 11 13:22:20 2012] [debug] GET /rest/User/all (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:22:20 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:22:20 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 75
+
+[Tue Sep 11 13:22:20 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:22:20 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:22:20 2012] [debug] Rendering inline template.
+[Tue Sep 11 13:22:20 2012] [debug] Rendering inline template.
+[Tue Sep 11 13:22:20 2012] [debug] 500 Internal Server Error (0.061253s, 16.326/s).
+[Tue Sep 11 13:25:44 2012] [debug] GET /rest/user (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:25:44 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:25:44 2012] [error] DBIx::Class::Schema::resultset(): Can't find source for user at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 31
+
+[Tue Sep 11 13:25:44 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:25:44 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:25:44 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:25:44 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:25:44 2012] [debug] 500 Internal Server Error (0.063731s, 15.691/s).
+[Tue Sep 11 13:25:56 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:25:56 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:25:56 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:25:56 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:25:56 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:25:56 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:25:56 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:25:56 2012] [debug] 500 Internal Server Error (0.034824s, 28.716/s).
+[Tue Sep 11 13:26:36 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:26:36 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:26:36 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:26:36 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:26:36 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:26:36 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:36 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:36 2012] [debug] 500 Internal Server Error (0.030804s, 32.463/s).
+[Tue Sep 11 13:26:38 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:26:38 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:26:38 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:26:38 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:26:38 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:26:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:38 2012] [debug] 500 Internal Server Error (0.021456s, 46.607/s).
+[Tue Sep 11 13:26:38 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:26:38 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:26:38 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:26:38 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:26:38 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:26:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:38 2012] [debug] 500 Internal Server Error (0.021113s, 47.364/s).
+[Tue Sep 11 13:26:39 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:26:39 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:26:39 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:26:39 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:26:39 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:26:39 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:39 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 13:26:39 2012] [debug] 500 Internal Server Error (0.022722s, 44.010/s).
+[Tue Sep 11 13:27:10 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 13:27:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 13:27:15 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 13:27:15 2012] [debug] Routing to a callback.
+[Tue Sep 11 13:27:15 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 13:27:15 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 13:27:15 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 13:27:15 2012] [debug] Rendering inline template.
+[Tue Sep 11 13:27:15 2012] [debug] Rendering inline template.
+[Tue Sep 11 13:27:15 2012] [debug] 500 Internal Server Error (0.156737s, 6.380/s).
+[Tue Sep 11 15:58:53 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 15:58:53 2012] [debug] Routing to a callback.
+[Tue Sep 11 15:58:53 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 15:58:53 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 15:58:53 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 15:58:53 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 15:58:53 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 15:58:53 2012] [debug] 500 Internal Server Error (0.023056s, 43.373/s).
+[Tue Sep 11 15:58:58 2012] [debug] GET /rest/User/ (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 15:58:58 2012] [debug] Routing to a callback.
+[Tue Sep 11 15:58:58 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 15:58:58 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 15:58:58 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 15:58:58 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 15:58:58 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 15:58:58 2012] [debug] 500 Internal Server Error (0.041649s, 24.010/s).
+[Tue Sep 11 15:59:04 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 15:59:04 2012] [debug] Routing to a callback.
+[Tue Sep 11 15:59:04 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 15:59:04 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 15:59:04 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 15:59:04 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 15:59:04 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 15:59:04 2012] [debug] 500 Internal Server Error (0.040092s, 24.943/s).
+[Tue Sep 11 15:59:11 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 15:59:13 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 15:59:13 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 15:59:13 2012] [debug] Routing to a callback.
+[Tue Sep 11 15:59:13 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 15:59:13 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 15:59:13 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 15:59:13 2012] [debug] Rendering inline template.
+[Tue Sep 11 15:59:13 2012] [debug] Rendering inline template.
+[Tue Sep 11 15:59:13 2012] [debug] 500 Internal Server Error (0.162426s, 6.157/s).
+[Tue Sep 11 16:00:02 2012] [debug] GET /rest (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:00:02 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 16:00:02 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 16:00:02 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:00:02 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:00:02 2012] [debug] 404 Not Found (0.067016s, 14.922/s).
+[Tue Sep 11 16:00:14 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:00:14 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:00:14 2012] [error] Can't locate object method "by_n" via package "Schema::ResultSet::User" at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 102.
+
+[Tue Sep 11 16:00:14 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:00:14 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:00:14 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:00:14 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:00:14 2012] [debug] 500 Internal Server Error (0.076628s, 13.050/s).
+[Tue Sep 11 16:03:39 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:03:39 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:03:39 2012] [error] Can't locate object method "by_n" via package "Schema::ResultSet::User" at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 102.
+
+[Tue Sep 11 16:03:39 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:03:39 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:03:39 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:03:39 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:03:39 2012] [debug] 500 Internal Server Error (0.025106s, 39.831/s).
+[Tue Sep 11 16:03:53 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 16:03:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 16:03:55 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:03:55 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:03:55 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.id = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:03:55 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:03:55 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:03:55 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:03:55 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:03:55 2012] [debug] 500 Internal Server Error (0.140004s, 7.143/s).
+[Tue Sep 11 16:07:21 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:07:21 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:07:21 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.id = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:07:21 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:07:21 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:07:21 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:07:21 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:07:21 2012] [debug] 500 Internal Server Error (0.022249s, 44.946/s).
+[Tue Sep 11 16:07:58 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 16:08:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 16:08:01 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:01 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:01 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:01 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:01 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:01 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:08:01 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:08:01 2012] [debug] 500 Internal Server Error (0.134509s, 7.434/s).
+[Tue Sep 11 16:08:05 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:05 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:05 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:05 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:05 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:05 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:05 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:05 2012] [debug] 500 Internal Server Error (0.028053s, 35.647/s).
+[Tue Sep 11 16:08:06 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:06 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:06 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:06 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:06 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:06 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:06 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:06 2012] [debug] 500 Internal Server Error (0.026535s, 37.686/s).
+[Tue Sep 11 16:08:07 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:07 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:07 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:07 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:07 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:07 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:07 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:07 2012] [debug] 500 Internal Server Error (0.031763s, 31.483/s).
+[Tue Sep 11 16:08:08 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:08 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:08 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:08 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:08 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:08 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:08 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:08 2012] [debug] 500 Internal Server Error (0.023761s, 42.086/s).
+[Tue Sep 11 16:08:09 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:09 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:09 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:09 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:09 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:09 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:09 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:09 2012] [debug] 500 Internal Server Error (0.022058s, 45.335/s).
+[Tue Sep 11 16:08:10 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:10 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:10 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:10 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:10 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:10 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:10 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:10 2012] [debug] 500 Internal Server Error (0.020903s, 47.840/s).
+[Tue Sep 11 16:08:12 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:12 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:12 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:12 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:12 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:12 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:12 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:12 2012] [debug] 500 Internal Server Error (0.033422s, 29.920/s).
+[Tue Sep 11 16:08:13 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:08:13 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:08:13 2012] [error] DBIx::Class::ResultSet::find(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me WHERE ( me.n = ? )"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 96
+
+[Tue Sep 11 16:08:13 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:08:13 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:08:13 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:13 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:08:13 2012] [debug] 500 Internal Server Error (0.027864s, 35.889/s).
+[Tue Sep 11 16:20:36 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:20:36 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:20:36 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 16:20:36 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:20:36 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:20:36 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:20:36 2012] [debug] Rendering inline template.
+[Tue Sep 11 16:20:36 2012] [debug] 500 Internal Server Error (0.069220s, 14.447/s).
+[Tue Sep 11 16:21:09 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:21:09 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:21:09 2012] [error] DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such table: user [for Statement "SELECT me.n, me.full_name, me.email FROM user me LIMIT ?"] at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 41
+
+[Tue Sep 11 16:21:09 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 16:21:09 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 16:21:09 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:21:09 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 16:21:09 2012] [debug] 500 Internal Server Error (0.028324s, 35.306/s).
+[Tue Sep 11 16:23:45 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 16:23:51 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 16:23:51 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:51 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:51 2012] [debug] 200 OK (0.144847s, 6.904/s).
+[Tue Sep 11 16:23:54 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:54 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:54 2012] [debug] 200 OK (0.003626s, 275.786/s).
+[Tue Sep 11 16:23:55 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:55 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:55 2012] [debug] 200 OK (0.003527s, 283.527/s).
+[Tue Sep 11 16:23:56 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:56 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:56 2012] [debug] 200 OK (0.002148s, 465.549/s).
+[Tue Sep 11 16:23:56 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:56 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:56 2012] [debug] 200 OK (0.002777s, 360.101/s).
+[Tue Sep 11 16:23:57 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:57 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:57 2012] [debug] 200 OK (0.004897s, 204.207/s).
+[Tue Sep 11 16:23:58 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:58 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:58 2012] [debug] 200 OK (0.003939s, 253.872/s).
+[Tue Sep 11 16:23:58 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:58 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:58 2012] [debug] 200 OK (0.003628s, 275.634/s).
+[Tue Sep 11 16:23:59 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:23:59 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:23:59 2012] [debug] 200 OK (0.003638s, 274.876/s).
+[Tue Sep 11 16:24:00 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:24:00 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:24:00 2012] [debug] 200 OK (0.002284s, 437.828/s).
+[Tue Sep 11 16:24:00 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:24:00 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:24:00 2012] [debug] 200 OK (0.002240s, 446.429/s).
+[Tue Sep 11 16:24:08 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:24:08 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:24:08 2012] [debug] 200 OK (0.004734s, 211.238/s).
+[Tue Sep 11 16:24:11 2012] [debug] GET /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:24:11 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:24:11 2012] [debug] 200 OK (0.004100s, 243.902/s).
+[Tue Sep 11 16:25:10 2012] [debug] GET /rest/User/slice(0,10) (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:25:10 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:25:10 2012] [debug] 200 OK (0.003264s, 306.373/s).
+[Tue Sep 11 16:25:17 2012] [debug] GET /rest/User/slice(1,2) (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 16:25:17 2012] [debug] Routing to a callback.
+[Tue Sep 11 16:25:17 2012] [debug] 200 OK (0.002983s, 335.233/s).
+[Tue Sep 11 17:20:36 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:20:36 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:20:36 2012] [debug] Controller "Users::Users" does not exist.
+[Tue Sep 11 17:20:36 2012] [debug] Template "Users/Viewport.html.ep" not found.
+[Tue Sep 11 17:20:36 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:20:36 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:20:36 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:20:36 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:20:36 2012] [debug] 404 Not Found (0.047992s, 20.837/s).
+[Tue Sep 11 17:21:30 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 17:21:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:21:32 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:21:32 2012] [debug] Controller "Users::Users" does not exist.
+[Tue Sep 11 17:21:32 2012] [debug] Template "Users/Viewport.html.ep" not found.
+[Tue Sep 11 17:21:32 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:21:32 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:21:32 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:21:32 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:21:32 2012] [debug] 404 Not Found (0.090064s, 11.103/s).
+[Tue Sep 11 17:31:37 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:31:37 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:31:37 2012] [debug] Controller "Users::Users" does not exist.
+[Tue Sep 11 17:31:37 2012] [debug] Template "Users/Viewport.html.ep" not found.
+[Tue Sep 11 17:31:37 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:31:37 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:31:37 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:31:37 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:31:37 2012] [debug] 404 Not Found (0.084147s, 11.884/s).
+[Tue Sep 11 17:31:56 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 17:31:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:31:58 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:31:58 2012] [debug] Controller "Users::Users" does not exist.
+[Tue Sep 11 17:31:58 2012] [debug] Template "Users/Viewport.html.ep" not found.
+[Tue Sep 11 17:31:58 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:31:58 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:31:58 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:31:58 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:31:58 2012] [debug] 404 Not Found (0.119937s, 8.338/s).
+[Tue Sep 11 17:32:47 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:32:47 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:32:47 2012] [error] Global symbol "$controllers" requires explicit package name at script/../lib/Users/View.pm line 11.
+Global symbol "$start_view" requires explicit package name at script/../lib/Users/View.pm line 12.
+Compilation failed in require at (eval 311) line 1.
+
+[Tue Sep 11 17:32:47 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 17:32:47 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 17:32:47 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:32:47 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:32:47 2012] [debug] 500 Internal Server Error (0.066120s, 15.124/s).
+[Tue Sep 11 17:33:44 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:33:44 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:33:44 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:33:44 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:33:44 2012] [error] Global symbol "$loc_handle" requires explicit package name at template "extjs/config.html.ep" line 9, near "                <link rel="stylesheet" type="text/css" href="/app/framework/resources/css/ext-all.css">".
+Global symbol "$title" requires explicit package name at template "extjs/config.html.ep" line 9, near "                <link rel="stylesheet" type="text/css" href="/app/framework/resources/css/ext-all.css">".
+Global symbol "$view" requires explicit package name at template "extjs/config.html.ep" line 33, near "                                        }".
+4: %       $attrs = Mojo::JSON->encode($attrs);
+5: %       utf8::decode($attrs);
+6: %       }
+7:         <head>
+8:                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+9:                 <title id="page-title"><%= $loc_handle->maketext($title) %></title>
+10:                 <link rel="stylesheet" type="text/css" href="/app/framework/resources/css/ext-all.css">
+11:                 <script type="text/javascript" src="/app/framework/ext-all<%= $debug ? '-debug' : '' %>.js"></script>
+12:                 <script type="text/javascript">
+13:                 Ext.define
+14:                         (
+
+[Tue Sep 11 17:33:44 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 17:33:44 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 17:33:44 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:33:44 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:33:44 2012] [debug] 500 Internal Server Error (0.133837s, 7.472/s).
+[Tue Sep 11 17:34:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:34:56 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:34:56 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:34:56 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:34:56 2012] [error] Global symbol "$title" requires explicit package name at template "extjs/config.html.ep" line 9, near "                <link rel="stylesheet" type="text/css" href="/app/framework/resources/css/ext-all.css">".
+4: %       $attrs = Mojo::JSON->encode($attrs);
+5: %       utf8::decode($attrs);
+6: %       }
+7:         <head>
+8:                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+9:                 <title id="page-title"><%= $title %></title>
+10:                 <link rel="stylesheet" type="text/css" href="/app/framework/resources/css/ext-all.css">
+11:                 <script type="text/javascript" src="/app/framework/ext-all<%= $debug ? '-debug' : '' %>.js"></script>
+12:                 <script type="text/javascript">
+13:                 Ext.define
+14:                         (
+
+[Tue Sep 11 17:34:56 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 17:34:56 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 17:34:56 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:34:56 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:34:56 2012] [debug] 500 Internal Server Error (0.098802s, 10.121/s).
+[Tue Sep 11 17:37:36 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:37:36 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:37:36 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:37:36 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:37:37 2012] [debug] 200 OK (0.084719s, 11.804/s).
+[Tue Sep 11 17:37:52 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:37:52 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:37:52 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:37:52 2012] [debug] 200 OK (0.002071s, 482.859/s).
+[Tue Sep 11 17:38:16 2012] [debug] GET /'Users'/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:38:16 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:38:16 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:38:16 2012] [debug] 200 OK (0.001845s, 542.005/s).
+[Tue Sep 11 17:38:18 2012] [debug] GET /'Users'/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:38:18 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:38:18 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:38:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:38:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:38:18 2012] [debug] 404 Not Found (0.076597s, 13.055/s).
+[Tue Sep 11 17:38:48 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:38:48 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:38:48 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:38:48 2012] [debug] 200 OK (0.001564s, 639.386/s).
+[Tue Sep 11 17:44:10 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:44:10 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:44:10 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:44:10 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:44:10 2012] [debug] 200 OK (0.035229s, 28.386/s).
+[Tue Sep 11 17:44:46 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:44:46 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:44:46 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:44:46 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:44:46 2012] [debug] 200 OK (0.041085s, 24.340/s).
+[Tue Sep 11 17:45:00 2012] [debug] GET /'Users'/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:45:00 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:45:00 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:45:00 2012] [debug] 200 OK (0.001643s, 608.643/s).
+[Tue Sep 11 17:45:02 2012] [debug] GET /'Users'/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:45:02 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:45:02 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:45:02 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:45:02 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:45:02 2012] [debug] 404 Not Found (0.046213s, 21.639/s).
+[Tue Sep 11 17:45:55 2012] [debug] GET /'H.controller.Users'/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:45:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:45:55 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:45:55 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:45:55 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:45:55 2012] [debug] 404 Not Found (0.031471s, 31.775/s).
+[Tue Sep 11 17:46:18 2012] [debug] GET /'Users,tets'/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:46:18 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:46:18 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:46:18 2012] [debug] 200 OK (0.001705s, 586.510/s).
+[Tue Sep 11 17:46:20 2012] [debug] GET /'Users,tets'/app/controller/Users,tets.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:46:20 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:46:20 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:46:20 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:46:20 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:46:20 2012] [debug] 404 Not Found (0.032618s, 30.658/s).
+[Tue Sep 11 17:46:35 2012] [debug] GET /'Users','tets'/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:46:35 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:46:35 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:46:35 2012] [debug] 200 OK (0.001838s, 544.070/s).
+[Tue Sep 11 17:46:38 2012] [debug] GET /'Users','tets'/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:46:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:46:38 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:46:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:46:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:46:38 2012] [debug] 404 Not Found (0.016786s, 59.573/s).
+[Tue Sep 11 17:46:38 2012] [debug] GET /'Users','tets'/app/controller/tets.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:46:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:46:38 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:46:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:46:38 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:46:38 2012] [debug] 404 Not Found (0.028194s, 35.469/s).
+[Tue Sep 11 17:53:50 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:53:50 2012] [debug] GET /'Users','tets'/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:53:50 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:53:50 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:53:50 2012] [debug] 200 OK (0.041009s, 24.385/s).
+[Tue Sep 11 17:54:01 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:54:01 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:54:01 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:54:01 2012] [debug] 200 OK (0.001615s, 619.195/s).
+[Tue Sep 11 17:54:04 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:54:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:54:04 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:54:04 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:54:04 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:54:04 2012] [debug] 404 Not Found (0.046344s, 21.578/s).
+[Tue Sep 11 17:55:32 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:55:32 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:55:32 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:55:32 2012] [debug] 200 OK (0.001360s, 735.294/s).
+[Tue Sep 11 17:55:34 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:55:34 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:55:34 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:55:34 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:55:34 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:55:34 2012] [debug] 404 Not Found (0.024339s, 41.086/s).
+[Tue Sep 11 17:56:13 2012] [debug] GET /Users&Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:56:13 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:56:13 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:56:13 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:13 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:13 2012] [debug] 404 Not Found (0.018864s, 53.011/s).
+[Tue Sep 11 17:56:21 2012] [debug] GET /Users_Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:56:21 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:56:21 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:56:21 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:21 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:21 2012] [debug] 404 Not Found (0.043025s, 23.242/s).
+[Tue Sep 11 17:56:26 2012] [debug] GET /Users,Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:56:26 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:56:26 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:56:26 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:26 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:26 2012] [debug] 404 Not Found (0.036152s, 27.661/s).
+[Tue Sep 11 17:56:39 2012] [debug] GET /Users%7CViewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:56:39 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:56:39 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:56:39 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:39 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:40 2012] [debug] 404 Not Found (0.013120s, 76.220/s).
+[Tue Sep 11 17:56:48 2012] [debug] GET /Users%7CViewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:56:48 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:56:48 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:56:48 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:48 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:56:48 2012] [debug] 404 Not Found (0.019601s, 51.018/s).
+[Tue Sep 11 17:57:04 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:57:04 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:57:04 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:57:04 2012] [debug] 200 OK (0.001744s, 573.394/s).
+[Tue Sep 11 17:57:06 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:57:06 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:57:06 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:57:06 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:57:06 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:57:06 2012] [debug] 404 Not Found (0.015458s, 64.691/s).
+[Tue Sep 11 17:57:29 2012] [debug] GET /Users/Viewport/ (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:57:29 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:57:29 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:57:29 2012] [debug] 200 OK (0.001951s, 512.558/s).
+[Tue Sep 11 17:57:31 2012] [debug] GET /Users/Viewport/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:57:31 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:57:31 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:57:31 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:57:31 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:57:31 2012] [debug] 404 Not Found (0.013161s, 75.982/s).
+[Tue Sep 11 17:57:45 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:57:45 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:57:45 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 17:57:45 2012] [debug] 200 OK (0.001577s, 634.115/s).
+[Tue Sep 11 17:57:47 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:57:47 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:57:47 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:57:47 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:57:47 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 17:57:47 2012] [debug] 404 Not Found (0.021329s, 46.885/s).
+[Tue Sep 11 17:59:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 17:59:35 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:59:35 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 17:59:35 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 17:59:36 2012] [debug] 200 OK (0.068742s, 14.547/s).
+[Tue Sep 11 17:59:39 2012] [debug] GET /Users/home/antonkonovalov/EX_mojo_rest_api/users/public/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 17:59:39 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 17:59:39 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 17:59:39 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:59:39 2012] [debug] Rendering inline template.
+[Tue Sep 11 17:59:39 2012] [debug] 404 Not Found (0.055967s, 17.868/s).
+[Tue Sep 11 18:00:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:00:39 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:00:39 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:00:39 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:00:39 2012] [debug] 200 OK (0.030237s, 33.072/s).
+[Tue Sep 11 18:00:42 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:00:42 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:00:42 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:00:42 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:00:42 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:00:42 2012] [debug] 404 Not Found (0.054846s, 18.233/s).
+[Tue Sep 11 18:01:13 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:01:13 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:01:13 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:01:13 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:01:13 2012] [debug] 200 OK (0.048179s, 20.756/s).
+[Tue Sep 11 18:01:17 2012] [debug] GET /Users/home/antonkonovalov/EX_mojo_rest_api/users/public/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:01:17 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:01:17 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:01:17 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:01:17 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:01:17 2012] [debug] 404 Not Found (0.041997s, 23.811/s).
+[Tue Sep 11 18:01:51 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:01:51 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:01:51 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:01:51 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:01:51 2012] [debug] 200 OK (0.042224s, 23.683/s).
+[Tue Sep 11 18:01:55 2012] [debug] GET /Users/.%20../app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:01:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:01:55 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:01:55 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:01:55 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:01:55 2012] [debug] 404 Not Found (0.091011s, 10.988/s).
+[Tue Sep 11 18:02:44 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:02:51 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:02:51 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:02:51 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:02:51 2012] [debug] 200 OK (0.036519s, 27.383/s).
+[Tue Sep 11 18:02:54 2012] [debug] GET /app/controller/model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:02:54 2012] [debug] 404 Not Found (0.056646s, 17.653/s).
+[Tue Sep 11 18:02:54 2012] [debug] GET /app/controller/view/user/Edit.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:02:54 2012] [debug] 404 Not Found (0.025164s, 39.739/s).
+[Tue Sep 11 18:02:54 2012] [debug] GET /app/controller/store/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:02:54 2012] [debug] 404 Not Found (0.022700s, 44.053/s).
+[Tue Sep 11 18:02:54 2012] [debug] GET /app/controller/view/user/List.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:02:54 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:02:54 2012] [debug] 404 Not Found (0.021721s, 46.038/s).
+[Tue Sep 11 18:04:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:04:58 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:04:58 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:04:58 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:04:58 2012] [debug] 200 OK (0.056346s, 17.747/s).
+[Tue Sep 11 18:05:00 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:05:00 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:05:00 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:05:00 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:05:00 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:05:00 2012] [debug] 404 Not Found (0.049267s, 20.298/s).
+[Tue Sep 11 18:06:02 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:06:02 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:02 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:06:02 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:06:02 2012] [debug] 200 OK (0.034534s, 28.957/s).
+[Tue Sep 11 18:06:04 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:06:04 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:06:04 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:06:04 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:06:04 2012] [debug] 404 Not Found (0.031459s, 31.787/s).
+[Tue Sep 11 18:06:27 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:06:27 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:27 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:06:27 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:06:27 2012] [debug] 200 OK (0.031133s, 32.120/s).
+[Tue Sep 11 18:06:29 2012] [debug] GET /app/controller/model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:29 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:06:29 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:06:29 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:06:29 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:06:29 2012] [debug] 404 Not Found (0.047352s, 21.118/s).
+[Tue Sep 11 18:06:29 2012] [debug] GET /app/controller/view/user/Edit.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:29 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:06:29 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:06:29 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:06:29 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:06:30 2012] [debug] 404 Not Found (0.010759s, 92.945/s).
+[Tue Sep 11 18:06:30 2012] [debug] GET /app/controller/store/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:30 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:06:30 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:06:30 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:06:30 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:06:30 2012] [debug] 404 Not Found (0.014530s, 68.823/s).
+[Tue Sep 11 18:06:30 2012] [debug] GET /app/controller/view/user/List.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:06:30 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:06:30 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:06:30 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:06:30 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:06:30 2012] [debug] 404 Not Found (0.014062s, 71.114/s).
+[Tue Sep 11 18:11:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:11:55 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:11:55 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:11:55 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:11:55 2012] [debug] 200 OK (0.036519s, 27.383/s).
+[Tue Sep 11 18:11:57 2012] [debug] GET /controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:11:57 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:11:57 2012] [debug] Template "extjs/config.js.ep" not found.
+[Tue Sep 11 18:11:57 2012] [debug] Template "view/show.js.ep" not found.
+[Tue Sep 11 18:11:57 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:12:12 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:12:12 2012] [debug] GET /controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:12:12 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:12:12 2012] [debug] Template "extjs/config.js.ep" not found.
+[Tue Sep 11 18:12:12 2012] [debug] Template "view/show.js.ep" not found.
+[Tue Sep 11 18:12:12 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:12:37 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:12:37 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:12:37 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:12:37 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:12:37 2012] [debug] 200 OK (0.038398s, 26.043/s).
+[Tue Sep 11 18:12:40 2012] [debug] GET /app/controller/model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:12:40 2012] [debug] 404 Not Found (0.045393s, 22.030/s).
+[Tue Sep 11 18:12:40 2012] [debug] GET /app/controller/view/user/Edit.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:12:40 2012] [debug] 404 Not Found (0.014979s, 66.760/s).
+[Tue Sep 11 18:12:40 2012] [debug] GET /app/controller/store/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:12:40 2012] [debug] 404 Not Found (0.015205s, 65.768/s).
+[Tue Sep 11 18:12:40 2012] [debug] GET /app/controller/view/user/List.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:12:40 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:12:40 2012] [debug] 404 Not Found (0.014842s, 67.376/s).
+[Tue Sep 11 18:13:09 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:13:09 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:13:09 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:13:09 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:13:09 2012] [debug] 200 OK (0.114731s, 8.716/s).
+[Tue Sep 11 18:13:11 2012] [debug] GET /Users/app/controller/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:13:11 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:13:11 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:13:11 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:13:11 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:13:11 2012] [debug] 404 Not Found (0.048404s, 20.659/s).
+[Tue Sep 11 18:14:40 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:14:40 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:14:40 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:14:40 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:14:40 2012] [debug] 200 OK (0.059156s, 16.904/s).
+[Tue Sep 11 18:14:42 2012] [debug] GET /app/controller/model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:14:42 2012] [debug] 404 Not Found (0.042923s, 23.298/s).
+[Tue Sep 11 18:14:42 2012] [debug] GET /app/controller/view/user/Edit.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:14:42 2012] [debug] 404 Not Found (0.013605s, 73.502/s).
+[Tue Sep 11 18:14:42 2012] [debug] GET /app/controller/store/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:14:42 2012] [debug] 404 Not Found (0.010728s, 93.214/s).
+[Tue Sep 11 18:14:42 2012] [debug] GET /app/controller/view/user/List.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:14:42 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:14:42 2012] [debug] 404 Not Found (0.011504s, 86.926/s).
+[Tue Sep 11 18:16:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:16:15 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:15 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:16:15 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:16:15 2012] [debug] 200 OK (0.027854s, 35.901/s).
+[Tue Sep 11 18:16:18 2012] [debug] GET /view/user/List.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:18 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:16:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:16:18 2012] [debug] 404 Not Found (0.032168s, 31.087/s).
+[Tue Sep 11 18:16:18 2012] [debug] GET /model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:18 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:16:18 2012] [debug] Template "extjs/config.js.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Template "view/show.js.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:16:18 2012] [debug] GET /store/Users.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:18 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:16:18 2012] [debug] Template "extjs/config.js.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Template "view/show.js.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:16:18 2012] [debug] GET /view/user/Edit.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:18 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:16:18 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:16:18 2012] [debug] Rendering cached inline template.
+[Tue Sep 11 18:16:18 2012] [debug] 404 Not Found (0.012402s, 80.632/s).
+[Tue Sep 11 18:16:33 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:16:33 2012] [debug] GET /model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:33 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:16:33 2012] [debug] Template "extjs/config.js.ep" not found.
+[Tue Sep 11 18:16:33 2012] [debug] Template "view/show.js.ep" not found.
+[Tue Sep 11 18:16:33 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:16:33 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:16:48 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:16:48 2012] [debug] GET /model/User.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:16:48 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:16:48 2012] [debug] Template "extjs/config.js.ep" not found.
+[Tue Sep 11 18:16:48 2012] [debug] Template "view/show.js.ep" not found.
+[Tue Sep 11 18:16:48 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:17:03 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:17:37 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:17:37 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:17:37 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:17:37 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:17:37 2012] [debug] 200 OK (0.076994s, 12.988/s).
+[Tue Sep 11 18:17:41 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:17:41 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:17:41 2012] [debug] 200 OK (0.458619s, 2.180/s).
+[Tue Sep 11 18:19:51 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:19:51 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:19:51 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:19:51 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:19:51 2012] [debug] 200 OK (0.035565s, 28.118/s).
+[Tue Sep 11 18:19:54 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:19:54 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:19:54 2012] [debug] 200 OK (0.112419s, 8.895/s).
+[Tue Sep 11 18:20:54 2012] [debug] GET /Users/userlist (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:20:54 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:20:54 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 18:20:54 2012] [debug] 200 OK (0.003459s, 289.101/s).
+[Tue Sep 11 18:20:58 2012] [debug] GET /app/view/userlist.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:20:58 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 18:20:58 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 18:20:58 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:20:58 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:20:58 2012] [debug] 404 Not Found (0.057911s, 17.268/s).
+[Tue Sep 11 18:20:58 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:20:58 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:20:58 2012] [debug] 200 OK (0.003111s, 321.440/s).
+[Tue Sep 11 18:21:03 2012] [debug] GET /Users/user.List (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:21:03 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:21:03 2012] [debug] Template "extjs/config.List.ep" not found.
+[Tue Sep 11 18:21:03 2012] [debug] Template "view/show.List.ep" not found.
+[Tue Sep 11 18:21:03 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:21:18 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:21:18 2012] [debug] GET /Users/user.List (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:21:18 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:21:18 2012] [debug] Template "extjs/config.List.ep" not found.
+[Tue Sep 11 18:21:18 2012] [debug] Template "view/show.List.ep" not found.
+[Tue Sep 11 18:21:18 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:21:33 2012] [debug] GET /Users/user.List (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:21:33 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:21:33 2012] [debug] Template "extjs/config.List.ep" not found.
+[Tue Sep 11 18:21:33 2012] [debug] Template "view/show.List.ep" not found.
+[Tue Sep 11 18:21:33 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:21:48 2012] [debug] Inactivity timeout.
+[Tue Sep 11 18:21:50 2012] [debug] GET /Users/user.List (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:21:50 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:21:50 2012] [debug] Template "extjs/config.List.ep" not found.
+[Tue Sep 11 18:21:50 2012] [debug] Template "view/show.List.ep" not found.
+[Tue Sep 11 18:21:50 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Sep 11 18:22:02 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:22:02 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:22:02 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 18:22:02 2012] [debug] 200 OK (0.001795s, 557.103/s).
+[Tue Sep 11 18:22:05 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:22:05 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:22:05 2012] [debug] 200 OK (0.002702s, 370.096/s).
+[Tue Sep 11 18:22:45 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:22:45 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:22:45 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:22:45 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:22:45 2012] [debug] 200 OK (0.027235s, 36.717/s).
+[Tue Sep 11 18:22:48 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:22:48 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:22:48 2012] [debug] 200 OK (0.107360s, 9.314/s).
+[Tue Sep 11 18:23:50 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:23:50 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:23:50 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:23:50 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:23:50 2012] [debug] 200 OK (0.038735s, 25.816/s).
+[Tue Sep 11 18:23:54 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:23:54 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:23:54 2012] [debug] 200 OK (0.095320s, 10.491/s).
+[Tue Sep 11 18:26:29 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:26:29 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:26:29 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:26:29 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:26:29 2012] [debug] 200 OK (0.039974s, 25.016/s).
+[Tue Sep 11 18:26:31 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:26:31 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:26:31 2012] [debug] 200 OK (0.082593s, 12.108/s).
+[Tue Sep 11 18:29:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:29:39 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:29:39 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:29:39 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:29:39 2012] [debug] 200 OK (0.058025s, 17.234/s).
+[Tue Sep 11 18:29:46 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:29:46 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:29:46 2012] [debug] 200 OK (0.088836s, 11.257/s).
+[Tue Sep 11 18:29:51 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:29:51 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:29:51 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 18:29:51 2012] [debug] 200 OK (0.002206s, 453.309/s).
+[Tue Sep 11 18:29:55 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:29:55 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:29:55 2012] [debug] 200 OK (0.002896s, 345.304/s).
+[Tue Sep 11 18:29:59 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:29:59 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:29:59 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 18:29:59 2012] [debug] 200 OK (0.003449s, 289.939/s).
+[Tue Sep 11 18:30:03 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:30:03 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:30:03 2012] [debug] 200 OK (0.002900s, 344.828/s).
+[Tue Sep 11 18:34:06 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:34:06 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:34:06 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:34:06 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:34:07 2012] [debug] 200 OK (0.052856s, 18.919/s).
+[Tue Sep 11 18:34:10 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:34:10 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:34:11 2012] [debug] 200 OK (0.112725s, 8.871/s).
+[Tue Sep 11 18:34:18 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:34:18 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:34:18 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 18:34:18 2012] [debug] 200 OK (0.007662s, 130.514/s).
+[Tue Sep 11 18:34:21 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:34:21 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:34:21 2012] [debug] 200 OK (0.002742s, 364.697/s).
+[Tue Sep 11 18:36:26 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:36:26 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:36:26 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:36:26 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:36:26 2012] [debug] 200 OK (0.064577s, 15.485/s).
+[Tue Sep 11 18:36:30 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:36:30 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:36:30 2012] [debug] 200 OK (0.087958s, 11.369/s).
+[Tue Sep 11 18:37:33 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:37:33 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:37:33 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:37:33 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:37:33 2012] [debug] 200 OK (0.059036s, 16.939/s).
+[Tue Sep 11 18:37:37 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:37:37 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:37:37 2012] [debug] 200 OK (0.108280s, 9.235/s).
+[Tue Sep 11 18:38:41 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:38:48 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:38:48 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:38:48 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:38:48 2012] [debug] 200 OK (0.038130s, 26.226/s).
+[Tue Sep 11 18:38:52 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:38:52 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:38:52 2012] [debug] 200 OK (0.122248s, 8.180/s).
+[Tue Sep 11 18:39:36 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:39:36 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:39:36 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:39:36 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:39:36 2012] [debug] 200 OK (0.038452s, 26.006/s).
+[Tue Sep 11 18:39:41 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:39:41 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:39:41 2012] [debug] 200 OK (0.147260s, 6.791/s).
+[Tue Sep 11 18:40:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:40:39 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:40:39 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:40:39 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:40:39 2012] [debug] 200 OK (0.035894s, 27.860/s).
+[Tue Sep 11 18:40:44 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:40:44 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:40:44 2012] [debug] 200 OK (0.189862s, 5.267/s).
+[Tue Sep 11 18:43:27 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:43:27 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:43:27 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:43:27 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:43:27 2012] [debug] 200 OK (0.025444s, 39.302/s).
+[Tue Sep 11 18:43:48 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:43:48 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:43:48 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:43:48 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:43:48 2012] [debug] 200 OK (0.026123s, 38.280/s).
+[Tue Sep 11 18:43:51 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:43:51 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:43:52 2012] [debug] 200 OK (0.171904s, 5.817/s).
+[Tue Sep 11 18:48:24 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:48:24 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:48:24 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 18:48:24 2012] [debug] 200 OK (0.002094s, 477.555/s).
+[Tue Sep 11 18:48:27 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:48:27 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:48:27 2012] [debug] 200 OK (0.003116s, 320.924/s).
+[Tue Sep 11 18:49:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:49:38 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:49:38 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:49:38 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:49:38 2012] [debug] 200 OK (0.045966s, 21.755/s).
+[Tue Sep 11 18:49:41 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:49:41 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:49:41 2012] [debug] 200 OK (0.109839s, 9.104/s).
+[Tue Sep 11 18:49:49 2012] [debug] PUT /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:49:49 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:49:50 2012] [error] DBIx::Class::Relationship::CascadeActions::update(): No such column 'id' at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 146
+
+[Tue Sep 11 18:49:50 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 18:49:50 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 18:49:50 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:49:50 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:49:50 2012] [debug] 500 Internal Server Error (0.082113s, 12.178/s).
+[Tue Sep 11 18:53:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 18:53:01 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:53:01 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 18:53:01 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 18:53:02 2012] [debug] 200 OK (0.045498s, 21.979/s).
+[Tue Sep 11 18:53:04 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:53:04 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:53:04 2012] [debug] 200 OK (0.114815s, 8.710/s).
+[Tue Sep 11 18:53:18 2012] [debug] PUT /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 18:53:18 2012] [debug] Routing to a callback.
+[Tue Sep 11 18:53:18 2012] [error] Can't call method "update" on an undefined value at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 146.
+
+[Tue Sep 11 18:53:18 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 18:53:18 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 18:53:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:53:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 18:53:18 2012] [debug] 500 Internal Server Error (0.057018s, 17.538/s).
+[Tue Sep 11 19:01:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:01:39 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:01:39 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:01:39 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:01:39 2012] [debug] 200 OK (0.035362s, 28.279/s).
+[Tue Sep 11 19:01:43 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:01:43 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:01:43 2012] [debug] 200 OK (0.138322s, 7.230/s).
+[Tue Sep 11 19:01:52 2012] [debug] PUT /rest/User/1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:01:52 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:01:52 2012] [debug] 200 OK (0.001268s, 788.644/s).
+[Tue Sep 11 19:04:52 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:04:52 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:04:52 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 19:04:52 2012] [debug] 200 OK (0.001526s, 655.308/s).
+[Tue Sep 11 19:04:55 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:04:55 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:04:55 2012] [debug] 200 OK (0.002893s, 345.662/s).
+[Tue Sep 11 19:05:03 2012] [debug] PUT /rest/User/1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:05:03 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:05:03 2012] [debug] 200 OK (0.000697s, 1434.720/s).
+[Tue Sep 11 19:05:55 2012] [info] Listening at "http://*:3000".
+[Tue Sep 11 19:06:02 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:06:02 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:06:02 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:06:02 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:06:02 2012] [debug] 200 OK (0.030082s, 33.242/s).
+[Tue Sep 11 19:06:05 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:06:05 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:06:06 2012] [debug] 200 OK (0.101140s, 9.887/s).
+[Tue Sep 11 19:06:16 2012] [debug] PUT /rest/User/1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:06:16 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:06:16 2012] [debug] 200 OK (0.170543s, 5.864/s).
+[Tue Sep 11 19:06:27 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:06:27 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:06:27 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 19:06:27 2012] [debug] 200 OK (0.001897s, 527.148/s).
+[Tue Sep 11 19:06:30 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:06:30 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:06:30 2012] [debug] 200 OK (0.002821s, 354.484/s).
+[Tue Sep 11 19:06:58 2012] [debug] PUT /rest/User/1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:06:58 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:06:58 2012] [debug] 200 OK (0.113385s, 8.820/s).
+[Tue Sep 11 19:07:46 2012] [debug] PUT /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:07:46 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:07:46 2012] [debug] 200 OK (0.129548s, 7.719/s).
+[Tue Sep 11 19:16:19 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:16:19 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:16:19 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:16:19 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:16:19 2012] [debug] 200 OK (0.027948s, 35.781/s).
+[Tue Sep 11 19:16:24 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:16:24 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:16:25 2012] [debug] 200 OK (0.169660s, 5.894/s).
+[Tue Sep 11 19:18:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:18:43 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:18:43 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:18:44 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:18:44 2012] [debug] 200 OK (0.149440s, 6.692/s).
+[Tue Sep 11 19:18:49 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:18:49 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:18:50 2012] [debug] 200 OK (0.096448s, 10.368/s).
+[Tue Sep 11 19:24:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:24:55 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:24:55 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:24:55 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:24:55 2012] [debug] 200 OK (0.032916s, 30.380/s).
+[Tue Sep 11 19:25:14 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:25:14 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:25:14 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:25:14 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:25:14 2012] [debug] 200 OK (0.040803s, 24.508/s).
+[Tue Sep 11 19:25:17 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:25:17 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:25:17 2012] [debug] 200 OK (0.116925s, 8.552/s).
+[Tue Sep 11 19:28:09 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:28:09 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:28:09 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:28:09 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:28:09 2012] [debug] 200 OK (0.048874s, 20.461/s).
+[Tue Sep 11 19:28:14 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:28:14 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:28:14 2012] [debug] 200 OK (0.121983s, 8.198/s).
+[Tue Sep 11 19:32:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:32:01 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:32:01 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:32:01 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:32:01 2012] [debug] 200 OK (0.032583s, 30.691/s).
+[Tue Sep 11 19:32:05 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:32:05 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:32:05 2012] [debug] 200 OK (0.106399s, 9.399/s).
+[Tue Sep 11 19:32:18 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:32:18 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:32:18 2012] [error] Can't locate object method "is_versified" via package "Schema::Result::User" at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 199.
+
+[Tue Sep 11 19:32:18 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 19:32:18 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 19:32:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 19:32:18 2012] [debug] Rendering inline template.
+[Tue Sep 11 19:32:18 2012] [debug] 500 Internal Server Error (0.047100s, 21.231/s).
+[Tue Sep 11 19:37:00 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:37:00 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:37:00 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:37:00 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:37:01 2012] [debug] 200 OK (0.091268s, 10.957/s).
+[Tue Sep 11 19:37:36 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:37:36 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:37:36 2012] [debug] 200 OK (0.094658s, 10.564/s).
+[Tue Sep 11 19:41:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:41:38 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:41:38 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:41:38 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:41:39 2012] [debug] 200 OK (0.048514s, 20.613/s).
+[Tue Sep 11 19:41:43 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:41:43 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:41:43 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 19:41:43 2012] [debug] 200 OK (0.001390s, 719.424/s).
+[Tue Sep 11 19:41:47 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:41:47 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:41:47 2012] [debug] 200 OK (0.156305s, 6.398/s).
+[Tue Sep 11 19:51:05 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:51:05 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:51:05 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:51:05 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:51:05 2012] [debug] 200 OK (0.059940s, 16.683/s).
+[Tue Sep 11 19:51:08 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:51:08 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:51:08 2012] [debug] 200 OK (0.124126s, 8.056/s).
+[Tue Sep 11 19:52:09 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:52:09 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:52:09 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:52:09 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:52:09 2012] [debug] 200 OK (0.054302s, 18.416/s).
+[Tue Sep 11 19:52:12 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:52:12 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:52:12 2012] [debug] 200 OK (0.124458s, 8.035/s).
+[Tue Sep 11 19:53:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:53:16 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:53:16 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:53:16 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:53:17 2012] [debug] 200 OK (0.043564s, 22.955/s).
+[Tue Sep 11 19:53:20 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:53:20 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:53:20 2012] [debug] 200 OK (0.215580s, 4.639/s).
+[Tue Sep 11 19:53:24 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:53:24 2012] [debug] Routing to a callback.
+[Tue Sep 11 19:53:24 2012] [error] Can't locate object method "is_versified" via package "Schema::Result::User" at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 199.
+
+[Tue Sep 11 19:53:24 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 19:53:24 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 19:53:24 2012] [debug] Rendering inline template.
+[Tue Sep 11 19:53:24 2012] [debug] Rendering inline template.
+[Tue Sep 11 19:53:24 2012] [debug] 500 Internal Server Error (0.079696s, 12.548/s).
+[Tue Sep 11 19:59:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 19:59:56 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 19:59:56 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 19:59:56 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 19:59:56 2012] [debug] 200 OK (0.064097s, 15.601/s).
+[Tue Sep 11 20:00:00 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:00:00 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:00:00 2012] [debug] 200 OK (0.179141s, 5.582/s).
+[Tue Sep 11 20:00:10 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:00:10 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:00:10 2012] [debug] 200 OK (0.214637s, 4.659/s).
+[Tue Sep 11 20:01:11 2012] [debug] PUT /rest/User/3 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:01:11 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:01:11 2012] [debug] 200 OK (0.152569s, 6.554/s).
+[Tue Sep 11 20:11:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:11:58 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:11:58 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:11:58 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:11:58 2012] [debug] 200 OK (0.036889s, 27.108/s).
+[Tue Sep 11 20:12:01 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:12:01 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:12:01 2012] [debug] 200 OK (0.198841s, 5.029/s).
+[Tue Sep 11 20:18:08 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:18:08 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:18:08 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:18:08 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:18:08 2012] [debug] 200 OK (0.038219s, 26.165/s).
+[Tue Sep 11 20:18:12 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:18:12 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:18:12 2012] [debug] 200 OK (0.137068s, 7.296/s).
+[Tue Sep 11 20:21:59 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:21:59 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:21:59 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:21:59 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:21:59 2012] [debug] 200 OK (0.096395s, 10.374/s).
+[Tue Sep 11 20:22:03 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:22:03 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:22:03 2012] [debug] 200 OK (0.114491s, 8.734/s).
+[Tue Sep 11 20:23:23 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:23:23 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:23:23 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:23:23 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:23:23 2012] [debug] 200 OK (0.054612s, 18.311/s).
+[Tue Sep 11 20:23:27 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:23:27 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:23:27 2012] [debug] 200 OK (0.108323s, 9.232/s).
+[Tue Sep 11 20:27:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:27:16 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:27:16 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:27:16 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:27:16 2012] [debug] 200 OK (0.034771s, 28.760/s).
+[Tue Sep 11 20:27:21 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:27:21 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:27:21 2012] [debug] 200 OK (0.109032s, 9.172/s).
+[Tue Sep 11 20:27:37 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:27:37 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:27:37 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 20:27:37 2012] [debug] 200 OK (0.001324s, 755.287/s).
+[Tue Sep 11 20:27:41 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:27:41 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:27:41 2012] [debug] 200 OK (0.002882s, 346.981/s).
+[Tue Sep 11 20:28:20 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:28:20 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:28:20 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:28:20 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:28:20 2012] [debug] 200 OK (0.085803s, 11.655/s).
+[Tue Sep 11 20:28:25 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:28:25 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:28:25 2012] [debug] 200 OK (0.123296s, 8.111/s).
+[Tue Sep 11 20:28:53 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:28:53 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:28:53 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:28:53 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:28:54 2012] [debug] 200 OK (0.052329s, 19.110/s).
+[Tue Sep 11 20:28:58 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:28:58 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:28:58 2012] [debug] 200 OK (0.127310s, 7.855/s).
+[Tue Sep 11 20:29:22 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:29:22 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:29:22 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:29:22 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:29:22 2012] [debug] 200 OK (0.033556s, 29.801/s).
+[Tue Sep 11 20:29:27 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:29:27 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:29:27 2012] [debug] 200 OK (0.166573s, 6.003/s).
+[Tue Sep 11 20:29:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:29:52 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:29:52 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:29:52 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:29:52 2012] [debug] 200 OK (0.035072s, 28.513/s).
+[Tue Sep 11 20:29:57 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:29:57 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:29:57 2012] [debug] 200 OK (0.119606s, 8.361/s).
+[Tue Sep 11 20:30:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:30:28 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:30:28 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:30:28 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:30:29 2012] [debug] 200 OK (0.031587s, 31.659/s).
+[Tue Sep 11 20:30:32 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:30:32 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:30:33 2012] [debug] 200 OK (0.131158s, 7.624/s).
+[Tue Sep 11 20:31:17 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:31:17 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:31:17 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:31:17 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:31:17 2012] [debug] 200 OK (0.036456s, 27.430/s).
+[Tue Sep 11 20:31:23 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:31:23 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:31:23 2012] [debug] 200 OK (0.110206s, 9.074/s).
+[Tue Sep 11 20:31:48 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:31:48 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:31:48 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:31:48 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:31:48 2012] [debug] 200 OK (0.043066s, 23.220/s).
+[Tue Sep 11 20:31:55 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:31:55 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:31:55 2012] [debug] 200 OK (0.157661s, 6.343/s).
+[Tue Sep 11 20:32:04 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:32:04 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:32:04 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:32:04 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:32:04 2012] [debug] 200 OK (0.035565s, 28.118/s).
+[Tue Sep 11 20:32:08 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:32:08 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:32:08 2012] [debug] 200 OK (0.125637s, 7.959/s).
+[Tue Sep 11 20:32:41 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:32:41 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:32:41 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:32:41 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:32:41 2012] [debug] 200 OK (0.049435s, 20.229/s).
+[Tue Sep 11 20:32:46 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:32:46 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:32:46 2012] [debug] 200 OK (0.108703s, 9.199/s).
+[Tue Sep 11 20:33:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:33:38 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:33:38 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:33:38 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:33:38 2012] [debug] 200 OK (0.042558s, 23.497/s).
+[Tue Sep 11 20:33:42 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:33:42 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:33:42 2012] [debug] 200 OK (0.100653s, 9.935/s).
+[Tue Sep 11 20:33:56 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:33:56 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:33:56 2012] [debug] 200 OK (0.172264s, 5.805/s).
+[Tue Sep 11 20:36:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:36:16 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:36:16 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:36:16 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:36:17 2012] [debug] 200 OK (0.044099s, 22.676/s).
+[Tue Sep 11 20:36:22 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:36:22 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:36:22 2012] [debug] 200 OK (0.219241s, 4.561/s).
+[Tue Sep 11 20:41:18 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:41:18 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:41:18 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:41:18 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:41:18 2012] [debug] 200 OK (0.069563s, 14.375/s).
+[Tue Sep 11 20:41:22 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:41:22 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:41:22 2012] [debug] 200 OK (0.113228s, 8.832/s).
+[Tue Sep 11 20:41:25 2012] [debug] DELETE /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:41:25 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:41:25 2012] [error] Can't call method "req" on an undefined value at /home/antonkonovalov/RestAPI/lib//Mojolicious/Plugin/RestAPI.pm line 228.
+
+[Tue Sep 11 20:41:25 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 11 20:41:25 2012] [debug] Template "exception.html.ep" not found.
+[Tue Sep 11 20:41:25 2012] [debug] Rendering inline template.
+[Tue Sep 11 20:41:25 2012] [debug] Rendering inline template.
+[Tue Sep 11 20:41:25 2012] [debug] 500 Internal Server Error (0.073560s, 13.594/s).
+[Tue Sep 11 20:42:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:42:43 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:42:43 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:42:43 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:42:43 2012] [debug] 200 OK (0.056116s, 17.820/s).
+[Tue Sep 11 20:42:46 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:42:46 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:42:47 2012] [debug] 200 OK (0.130610s, 7.656/s).
+[Tue Sep 11 20:42:49 2012] [debug] DELETE /rest/User/H.model.User-4 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:42:49 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:42:49 2012] [debug] 200 OK (0.001816s, 550.661/s).
+[Tue Sep 11 20:44:40 2012] [debug] DELETE /rest/User/H.model.User-4 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:44:40 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:44:40 2012] [debug] 200 OK (0.000939s, 1064.963/s).
+[Tue Sep 11 20:49:49 2012] [debug] DELETE /rest/User/4 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:49:49 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:49:49 2012] [debug] 200 OK (0.002461s, 406.339/s).
+[Tue Sep 11 20:51:23 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 20:51:23 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:51:23 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 20:51:23 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 20:51:23 2012] [debug] 200 OK (0.049342s, 20.267/s).
+[Tue Sep 11 20:51:28 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:51:28 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:51:28 2012] [debug] 200 OK (0.121853s, 8.207/s).
+[Tue Sep 11 20:51:32 2012] [debug] DELETE /rest/User/4 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:51:32 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:51:32 2012] [debug] 200 OK (0.001565s, 638.978/s).
+[Tue Sep 11 20:51:36 2012] [debug] DELETE /rest/User/2 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 20:51:36 2012] [debug] Routing to a callback.
+[Tue Sep 11 20:51:36 2012] [debug] 200 OK (0.001410s, 709.220/s).
+[Tue Sep 11 21:00:33 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 21:00:33 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:00:33 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 21:00:33 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 21:00:33 2012] [debug] 200 OK (0.076526s, 13.067/s).
+[Tue Sep 11 21:00:36 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:00:36 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:00:36 2012] [debug] 200 OK (0.105460s, 9.482/s).
+[Tue Sep 11 21:00:38 2012] [debug] DELETE /rest/User/4 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:00:38 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:00:38 2012] [debug] 200 OK (0.134958s, 7.410/s).
+[Tue Sep 11 21:00:51 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:00:51 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 21:00:51 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 21:00:51 2012] [debug] 200 OK (0.001558s, 641.849/s).
+[Tue Sep 11 21:00:54 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:00:54 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:00:54 2012] [debug] 200 OK (0.002732s, 366.032/s).
+[Tue Sep 11 21:08:51 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 21:08:51 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:08:51 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 21:08:51 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 21:08:51 2012] [debug] 200 OK (0.083291s, 12.006/s).
+[Tue Sep 11 21:08:54 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:08:54 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:08:54 2012] [debug] 200 OK (0.127404s, 7.849/s).
+[Tue Sep 11 21:09:20 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:09:20 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:09:20 2012] [debug] 200 OK (0.162611s, 6.150/s).
+[Tue Sep 11 21:09:30 2012] [debug] GET /Users/Viewport (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:09:30 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 21:09:30 2012] [debug] Rendering cached template "extjs/config.html.ep".
+[Tue Sep 11 21:09:30 2012] [debug] 200 OK (0.002364s, 423.012/s).
+[Tue Sep 11 21:09:34 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:09:34 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:09:34 2012] [debug] 200 OK (0.007038s, 142.086/s).
+[Tue Sep 11 21:11:39 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:11:39 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:11:39 2012] [debug] 200 OK (0.117776s, 8.491/s).
+[Tue Sep 11 21:11:53 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:11:53 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:11:53 2012] [debug] 200 OK (0.113806s, 8.787/s).
+[Tue Sep 11 21:12:08 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:12:08 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:12:08 2012] [debug] 200 OK (0.125320s, 7.980/s).
+[Tue Sep 11 21:12:31 2012] [debug] POST /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:12:31 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:12:31 2012] [debug] 200 OK (0.125898s, 7.943/s).
+[Tue Sep 11 21:23:47 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:23:47 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 11 21:23:47 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 11 21:23:47 2012] [debug] Rendering inline template.
+[Tue Sep 11 21:23:47 2012] [debug] Rendering inline template.
+[Tue Sep 11 21:23:47 2012] [debug] 404 Not Found (0.040088s, 24.945/s).
+[Tue Sep 11 21:25:57 2012] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 11 21:25:57 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:25:57 2012] [debug] Routing to controller "Users::View" and action "show".
+[Tue Sep 11 21:25:57 2012] [debug] Rendering template "extjs/config.html.ep".
+[Tue Sep 11 21:25:57 2012] [debug] 200 OK (0.046020s, 21.730/s).
+[Tue Sep 11 21:26:01 2012] [debug] GET /rest/User (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19).
+[Tue Sep 11 21:26:01 2012] [debug] Routing to a callback.
+[Tue Sep 11 21:26:02 2012] [debug] 200 OK (0.117370s, 8.520/s).

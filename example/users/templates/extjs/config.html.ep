@@ -1,0 +1,47 @@
+<html>
+% if($attrs) 
+%       {
+%       $attrs = Mojo::JSON->encode($attrs);
+%       utf8::decode($attrs);
+%       }
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title id="page-title"><%= $controllers.' - '.$start_view %></title>
+		<link rel="stylesheet" type="text/css" href="/app/framework/resources/css/ext-all.css">
+		<script type="text/javascript" src="/app/framework/ext-all<%= $debug ? '-debug' : '' %>.js"></script>
+		<script type="text/javascript">
+		Ext.define
+			(
+			'Mojo',
+				{
+				singleton: true,
+				get: Ext.JSON.decode('<%== $attrs ? $attrs : '{}' %>')                                
+				}
+			);
+		DEBUG = <%= $debug %>;
+		Ext.Loader.setConfig({ enabled: true });
+		Ext.application
+			(
+				{
+				name: 'H',
+				paths : 
+					{
+					'H' :'../app'
+					},
+				controllers: 
+					[
+					'H.controller.<%== $controllers %>'
+					],
+				launch: function() 
+					{
+					Ext.create('H.view.<%= $start_view %>');
+					}
+				}
+			);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
+
+ 
