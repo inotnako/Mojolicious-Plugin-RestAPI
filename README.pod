@@ -7,27 +7,22 @@ Mojolicious::Plugin::RestAPI - Mojolicious Plugin
   # Mojolicious
 	$self->plugin('RestAPI');
 	# OR
-	$self->plugin
-		(
-		'RestAPI',
-			{
-			route 	=> $self->routes,
-			schema 	=> $self->schema,
-			url	=> '/rest',
-			id_property => 'n' # id or n 
-			}
-		);
+	$self->plugin('RestAPI',{
+		route 	=> $self->routes,
+		schema 	=> $self->schema,
+		url	=> '/rest',
+		id_property => 'n' # id or n 
+	});
 
   # Mojolicious::Lite
 	plugin 'RestAPI';
 	# OR
-	plugin 'RestAPI',
-			{
-			route 	=> $self->routes,
-			schema 	=> $self->schema,
-			url	=> '/rest',
-			id_property => 'n' # id or n 
-			};
+	plugin 'RestAPI',{
+		route 	=> $self->routes,
+		schema 	=> $self->schema,
+		url	=> '/rest',
+		id_property => 'n' # id or n 
+	};
 
 =head1 DESCRIPTION
 
